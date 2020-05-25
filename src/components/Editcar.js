@@ -14,6 +14,8 @@ export default function Editcar(props) {
         brand: '', model: '', color: '', fuel: '', year: '', price: ''
     });
       
+
+    // Proof of GitHub upate
     const handleClickOpen = () => {
         //console.log(props.car);
         setCar({brand: props.car.brand, model: props.car.model,
